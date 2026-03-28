@@ -32,5 +32,5 @@ This is a full stack HRMS web application developed using Flask and MySQL.
 ## Demo Video
 https://drive.google.com/file/d/1eVe66GPX7-Ayipm0ddNCDIx_jOifcF_s/view?usp=sharing
 ## ER Diagram
-![ER Diagram](HRMS/docs/er_diagram.png)
+https://drive.google.com/file/d/1RjW-vnZaxY5cfPToAAIMRxf82giGzlq8/view?usp=sharing
 
