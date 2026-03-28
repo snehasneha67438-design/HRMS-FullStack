@@ -30,7 +30,7 @@ This is a full stack HRMS web application developed using Flask and MySQL.
 - Payroll calculation
 - Dashboard UI
 ## Demo Video
-https://drive.google.com/file/d/1eVe66GPX7-Ayipm0ddNCDIx_jOifcF_s/view?usp=sharing
+[https://drive.google.com/file/d/1eVe66GPX7-Ayipm0ddNCDIx_jOifcF_s/view?usp=sharing](https://drive.google.com/file/d/1SbuhrXqfwc0gknjbtvL7tY9Q8vWVnlP4/view?usp=sharing)
 ## ER Diagram
-https://drive.google.com/file/d/1RjW-vnZaxY5cfPToAAIMRxf82giGzlq8/view?usp=sharing
+[https://drive.google.com/file/d/1RjW-vnZaxY5cfPToAAIMRxf82giGzlq8/view?usp=sharing](https://drive.google.com/file/d/1TXH1ip4WY5PGPioiLQ3JYcaXMD-m_q5C/view?usp=sharing)
 
