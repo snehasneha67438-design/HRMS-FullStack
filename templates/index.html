@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HRMS Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to HRMS</h1>
+        <h3>Select a Module</h3>
+
+        <div class="dashboard-grid">
+            <a href="/employee" class="card">Employee Management</a>
+            <a href="/view_employees" class="card">View Employees</a>
+            <a href="/attendance" class="card">Attendance</a>
+            <a href="/leave" class="card">Leave Application</a>
+            <a href="/view_leaves" class="card">Leave Approval</a>
+            <a href="/payroll" class="card">Payroll</a>
+            <a href="/dashboard" class="card">Dashboard</a>
+        </div>
+    </div>
+</body>
+</html>

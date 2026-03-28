@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee List</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+    <h2>Leave Application</h2>
+
+    <form action="/apply_leave" method="POST">
+        Employee ID:
+        <input type="number" name="emp_id"><br><br>
+
+        Employee Name:
+        <input type="text" name="emp_name"><br><br>
+
+        Leave Type:
+        <select name="leave_type">
+            <option>Sick Leave</option>
+            <option>Casual Leave</option>
+            <option>Paid Leave</option>
+        </select><br><br>
+
+        From Date:
+        <input type="date" name="from_date"><br><br>
+
+        To Date:
+        <input type="date" name="to_date"><br><br>
+
+        Reason:
+        <input type="text" name="reason"><br><br>
+
+        <button type="submit">Apply Leave</button>
+    </form>
+</div>
+</body>
+</html>

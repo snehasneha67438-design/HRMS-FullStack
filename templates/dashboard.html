@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DASH</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+    <h1>HRMS Dashboard</h1>
+
+    <h3>Total Employees: {{ total_employees }}</h3>
+    <h3>Total Leave Requests: {{ total_leaves }}</h3>
+    <h3>Total Attendance Records: {{ total_attendance }}</h3>
+    <h3>Total Payroll Records: {{ total_payroll }}</h3>
+</div>
+</body>
+</html>

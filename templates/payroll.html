@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee List</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+    <h2>Payroll Calculation</h2>
+
+    <form action="/add_payroll" method="POST">
+        Employee ID:
+        <input type="number" name="emp_id"><br><br>
+
+        Employee Name:
+        <input type="text" name="emp_name"><br><br>
+
+        Basic Salary:
+        <input type="number" name="basic_salary"><br><br>
+
+        Tax:
+        <input type="number" name="tax"><br><br>
+
+        Bonus:
+        <input type="number" name="bonus"><br><br>
+
+        Month:
+        <input type="text" name="month"><br><br>
+
+        <button type="submit">Generate Payroll</button>
+    </form>
+</div>
+</body>
+</html>

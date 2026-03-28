@@ -1,0 +1,31 @@
+# HRMS - Human Resource Management System
+
+## Project Overview
+This is a full stack HRMS web application developed using Flask and MySQL.
+
+## Modules
+- Employee Management (CRUD)
+- Attendance Management
+- Leave Application & Approval
+- Payroll Calculation
+- Dashboard Analytics
+
+## Tech Stack
+- Frontend: HTML, CSS
+- Backend: Flask (Python)
+- Database: MySQL
+
+## Setup Instructions
+1. Clone the repository
+2. Install requirements
+   pip install -r requirements.txt
+3. Run MySQL schema from database/hrms.sql
+4. Start application
+   python app.py
+
+## Features
+- Employee CRUD
+- Attendance tracking
+- Leave workflow
+- Payroll calculation
+- Dashboard UI

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>Attendance Entry</h2>
+
+    <form action="/add_attendance" method="POST">
+        Employee ID:
+        <input type="number" name="emp_id"><br><br>
+
+        Employee Name:
+        <input type="text" name="emp_name"><br><br>
+
+        Date:
+        <input type="date" name="attendance_date"><br><br>
+
+        Clock In:
+        <input type="time" name="clock_in"><br><br>
+
+        Clock Out:
+        <input type="time" name="clock_out"><br><br>
+
+        Status:
+        <input type="text" name="status"><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
