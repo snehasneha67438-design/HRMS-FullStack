@@ -29,3 +29,6 @@ This is a full stack HRMS web application developed using Flask and MySQL.
 - Leave workflow
 - Payroll calculation
 - Dashboard UI
+## Demo Video
+https://drive.google.com/https://drive.google.com/file/d/1eVe66GPX7-Ayipm0ddNCDIx_jOifcF_s/view?usp=sharing
+
