@@ -8,6 +8,8 @@ This is a full stack HRMS web application developed using Flask and MySQL.
 - Attendance Management
 - Leave Application & Approval
 - Payroll Calculation
+- performance Management
+- Recuritment
 - Dashboard Analytics
 
 ## Tech Stack
