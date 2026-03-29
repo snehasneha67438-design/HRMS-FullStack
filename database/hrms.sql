@@ -51,3 +51,20 @@ CREATE TABLE payroll (
 );
 
 SELECT * FROM payroll;
+
+CREATE TABLE performance (
+    perf_id INT AUTO_INCREMENT PRIMARY KEY,
+    emp_id INT,
+    emp_name VARCHAR(100),
+    goal VARCHAR(255),
+    progress INT,
+    rating INT
+);
+
+CREATE TABLE recruitment (
+    rec_id INT AUTO_INCREMENT PRIMARY KEY,
+    candidate_name VARCHAR(100),
+    role_applied VARCHAR(100),
+    interview_date DATE,
+    status VARCHAR(50)
+);
