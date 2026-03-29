@@ -13,8 +13,8 @@ This is a full stack HRMS web application developed using Flask and MySQL.
 - Dashboard Analytics
 
 ## Tech Stack
-- Frontend: HTML, CSS
-- Backend: Flask (Python)
+- Frontend: HTML, CSS, React
+- Backend: Flask (Python), API(REST Apis)
 - Database: MySQL
 
 ## Setup Instructions
